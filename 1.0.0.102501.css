@@ -1,0 +1,108 @@
+/*!
+ 
+ @Name: SHED_V1
+ @Date: 2022.10.25
+ @Release: 1.0.0.102501
+ @Author: @shed219
+ @WebSite: shed.cm
+ 
+*/
+
+body {
+	background: url() fixed no-repeat!important;
+	background-color: #f9f9f9!important;
+}
+
+.content-icp {
+	display: none!important;
+}
+
+.sliderbar-container {
+	display: none;
+}
+
+.commodity-icon {
+	height: 32px!important;
+}
+
+.button-click {
+	padding: 10px 10px 8px!important;
+	border: 2px solid transparent!important;
+	border-radius: 32px;
+}
+
+.button-click:hover,.checked {
+	border: 2px solid #00dbde!important;
+}
+
+#app>nav>div>div.navbar-brand>a:nth-child(2)>span {
+	color: #00dbde!important;
+}
+
+#product .checked {
+	border: 2px solid #00dbde!important;
+	background-color: #00dbde;
+	color: #fff;
+}
+
+.round {
+	padding: 16px;
+	width: 65%;
+	height: 44px;
+	border-radius: 32px;
+}
+
+input.form-control.round.buyNum {
+	width: 100px!important;
+}
+
+.form-control:focus {
+	border-color: #00dbde!important;
+	-webkit-box-shadow: 0 0 0 .2rem rgba(0,219,222,.19);
+	box-shadow: 0 0 0 .2rem rgba(0,219,222,.19);
+}
+
+.login-display,.wholesaleHtml,a.button-click,span.clipboard {
+	color: #6c757d!important;
+	font-weight: unset!important;
+}
+
+b.payAmount,span.text-success.price {
+	color: #f44336!important;
+	font-size: 24px!important;
+}
+
+.pay_type a {
+	color: #6c757d!important;
+	font-weight: unset!important;
+}
+
+a.login-url,a.login-url:focus,a.login-url:hover,price_tips a,span.purchase_count {
+	color: #00dbde!important;
+}
+
+span.price_tips {
+	padding: 0 5px;
+}
+
+#app > nav > div > div.navbar-brand > a:nth-child(1) > span {
+	color: #6c757d!important;
+}
+
+.badge-pill {
+	padding: 4px 8px!important;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	background-color: rgb(245, 245, 245);
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgb(245, 245, 245);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #00dbde40;
+}
